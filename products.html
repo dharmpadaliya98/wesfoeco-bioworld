@@ -1,0 +1,475 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bioworld">
+
+  <title>Bioworld</title>
+
+  <!-- Fav Icon -->
+  <link rel="icon" type="image/x-icon" href="public/img/favicon.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="css2?family=Kanit:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link href="css?family=Great+Vibes|Lato:400,700,900|Playfair+Display:400,400i|Poppins:400,500,600,700" rel="stylesheet">
+  <!-- All CSS files -->
+  <link rel="stylesheet" href="public/css/bootstrap.min.css">
+  <link rel="stylesheet" href="public/css/all.min.css">
+  <link rel="stylesheet" href="public/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="public/css/progressbar.css">
+  <link rel="stylesheet" href="public/css/meanmenu.min.css">
+  <link rel="stylesheet" href="public/css/master.css">
+  <link rel="stylesheet" href="public/css/organicfood.css">
+  <link rel="stylesheet" href="public/css/main-slider.css">
+  <link rel="stylesheet" href="public/css/lightbox.css">
+
+
+
+
+  
+    <style>
+  /*Translater Start here*/
+  #google_translate_element {
+      margin: auto;
+      display: inline-block;
+      position: relative;
+    padding: 0px 0;
+  }
+  .goog-te-gadget-simple {
+      background-color: transparent !important;
+      border-left: none !important;
+      border-top: none !important;
+      border-bottom: none !important;
+      border-right: none !important;
+      padding: 0 !important;
+  }
+  .goog-te-gadget>div>img {
+      background-image: url(public/img/g-icon.png) !important;
+      background-repeat: no-repeat !important;
+      width: 40px;
+      height: 50px;
+      background-size: 25px 25px;
+      background-position: center center !important;
+  }
+  #google_translate_element span a span:first-child {
+      display: none;
+  }
+  .job__detail-content img{
+      max-width: 300px;
+      margin-bottom: 30px;
+  }
+  .goog-te-gadget-simple .goog-te-menu-value span{
+      color: #000 !important;
+  }
+  .goog-te-menu-value{
+      margin-left: 0px !important;
+  }
+  @media  only screen and (max-width: 991px){	
+      #google_translate_element{
+      display: none;
+    }
+  }
+  /*Translater Over Now*/
+  </style>
+</head>
+<body>
+  <!-- Cursor Animation -->
+  <div class="cursor1"></div>
+  <div class="cursor2"></div>
+
+
+  <!-- Preloader -->
+  
+
+  <!-- Scroll Smoother -->
+  <div class="has-smooth" id="has_smooth"></div>
+
+
+  <!-- Go Top Button -->
+  <button id="scroll_top" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></button>
+
+
+<!-- Header area start -->
+<header class="header__area-2">
+    <div class="header__inner-2">
+      <div class="header__logo-2">
+        <a href="index.htm"><img src="public/img/logo.png" alt="Site Logo"></a>
+      </div>
+      <div class="header__nav-2">
+        <ul class="main-menu ">
+          <li class=""><a href="index.htm">Home</a></li>
+          <li class=""><a href="about.html">About</a></li>         
+          
+          <li class="active"><a href="products.html">Products</a></li>
+          <li class=""><a href="inquiry.html">Inquiry</a></li>
+          <li class=""><a href="blog.html">Blog</a></li>
+          <li class=""><a href="contact.html">Contact</a></li>
+          <li><a class="" href="#" id="google_translate_element"></a></li>
+        </ul>
+      </div>
+      <div class="header__nav-icon-2">
+        <button class="menu-icon-2" id="open_offcanvas"><img src="public/imgs/icon/menu-black.png" alt="Menubar Icon"></button>
+      </div>
+    </div>
+  </header>
+  <!-- Header area end -->
+
+
+  <!-- Offcanvas area start -->
+  <div class="offcanvas__area">
+    <div class="offcanvas__body">      
+      <div class="offcanvas__mid">
+        <div class="offcanvas__menu-wrapper">
+          <nav class="offcanvas__menu">
+            <ul class="">
+              <li class="active"><a href="index.htm">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="inquiry.html">Inquiry</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>     
+      <div class="offcanvas__close">
+        <button type="button" id="close_offcanvas"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+    </div>
+  </div>
+  <!-- Offcanvas area end -->
+  <script type="text/javascript" src="translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <script type="text/javascript">
+      function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+      }
+  </script>
+
+
+  <div id="smooth-wrapper">
+    <div id="smooth-content">
+
+        <main>
+
+            <section class="breadcrumb__area">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xxl-12">
+                    <div class="breadcrumb__content">
+                      <h1 class="breadcrumb__title">Products</h1>
+                      <ul class="thm-breadcrumb list-unstyled">
+                        <li class="home"><a href="index.htm"><i class="fa-solid fa-home"></i>Home</a></li>
+                        <li><span>/</span></li>
+                        <li>Products</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="products_content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                          <h2 class="portfolio__detail-title title-anim">We Are Providing India's Best Quality Tableware Products</h2>
+                        </div>
+
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                            <div class="portfolio__detail-text">
+                              <p>To give you the best tableware products in the world,we manufacture bagasse biodegradable products. We value nature and that's why every single product is eco-friendly and doesn't hurt any kind of wildlife or the environment.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="portfolio__area-5">
+                <div id="items__border"> </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="portfolio__inner-5">
+                            <div class="portfolio__item-5">
+                                <a href="public/img/home/pro/bowl.jpg" data-lightbox="image-1" data-title="Bowls Products">
+                                    <img src="public/img/home/pro/bowl.jpg" alt="Products Images">
+                                    <div class="portfolio__content-5">
+                                        <h2 class="portfolio__name-5">Bagasse</h2>
+                                        <h3 class="portfolio__title-5">Bowls</h3> </div>
+                                </a>
+                            </div>
+                            <div class="portfolio__item-5">
+                                <a href="public/img/home/pro/claimshells.jpg" data-lightbox="image-1" data-title="Clamshell Products">
+                                    <img src="public/img/home/pro/claimshells.jpg" alt="Products Images">
+                                    <div class="portfolio__content-5">
+                                        <h2 class="portfolio__name-5">Bagasse</h2>
+                                        <h3 class="portfolio__title-5">Clamshell</h3> </div>
+                                </a>
+                            </div>
+                            <div class="portfolio__item-5">
+                                <a href="public/img/home/pro/containers.jpg" data-lightbox="image-1" data-title="Containers Products">
+                                    <img src="public/img/home/pro/containers.jpg" alt="Products Images">
+                                    <div class="portfolio__content-5">
+                                        <h2 class="portfolio__name-5">Bagasse</h2>
+                                        <h3 class="portfolio__title-5">Containers</h3> </div>
+                                </a>
+                            </div>
+                            <div class="portfolio__item-5">
+                                <a href="public/img/home/pro/round-compartment.jpg" data-lightbox="image-1" data-title="Round Compartments Products">
+                                    <img src="public/img/home/pro/round-compartment.jpg" alt="Products Images">
+                                    <div class="portfolio__content-5">
+                                        <h2 class="portfolio__name-5">Bagasse</h2>
+                                        <h3 class="portfolio__title-5">Round Compartments</h3> </div>
+                                </a>
+                            </div>
+                            <div class="portfolio__item-5">
+                                <a href="public/img/home/pro/round-plate.jpg" data-lightbox="image-1" data-title="Round Plates Products">
+                                    <img src="public/img/home/pro/round-plate.jpg" alt="Products Images">
+                                    <div class="portfolio__content-5">
+                                        <h2 class="portfolio__name-5">Bagasse</h2>
+                                        <h3 class="portfolio__title-5">Round Plates</h3> </div>
+                                </a>
+                            </div>
+                            <div class="portfolio__item-5">
+                                <a href="public/img/home/pro/lids.jpg" data-lightbox="image-1" data-title="Sipper LIDS Products">
+                                    <img src="public/img/home/pro/lids.jpg" alt="Products Images">
+                                    <div class="portfolio__content-5">
+                                        <h2 class="portfolio__name-5">Bagasse</h2>
+                                        <h3 class="portfolio__title-5">Sipper LIDS</h3> </div>
+                                </a>
+                            </div>
+                            <div class="portfolio__item-5">
+                                <a href="public/img/home/pro/square-compartment.jpg" data-lightbox="image-1" data-title="Square Compartments Products">
+                                    <img src="public/img/home/pro/square-compartment.jpg" alt="Products Images">
+                                    <div class="portfolio__content-5">
+                                        <h2 class="portfolio__name-5">Bagasse</h2>
+                                        <h3 class="portfolio__title-5">Square Compartments</h3> </div>
+                                </a>
+                            </div>
+                            <div class="portfolio__item-5 order-2 order-sm-1">
+                                <a href="inquiry.html">
+                                    <img src="public/img/products/pro_category/inquiry_now.jpg" alt="Products Images">
+                                </a>
+                            </div>
+                            <div class="portfolio__item-5 order-1 order-sm-2">
+                                <a href="public/img/home/pro/tray.jpg" data-lightbox="image-1" data-title="Trays Products">
+                                    <img src="public/img/home/pro/tray.jpg" alt="Products Images">
+                                    <div class="portfolio__content-5">
+                                        <h2 class="portfolio__name-5">Bagasse</h2>
+                                        <h3 class="portfolio__title-5">Trays</h3> </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="career__benefits">
+                <div class="container g-0">
+                  <div class="row">
+                    <div class="col-xxl-7 col-xl-7 col-lg-7">
+                      <ul class="career__benefits-list">
+                        <li>
+                            <img class="img-fluid" src="public/img/products/features/wateroil_resistance.png" alt="Features Images">
+                            Water & <br>Oil Resistance
+                        </li>
+                        <li>
+                            <img class="img-fluid" src="public/img/products/features/microwave.png" alt="Features Images">
+                            Microwave <br>Safe
+                        </li>
+                        <li>
+                            <img class="img-fluid" src="public/img/products/features/freezer_friendly.png" alt="Features Images">
+                            Freezer <br>Friendly
+                        </li>
+                        <li>
+                            <img class="img-fluid" src="public/img/products/features/renewable.png" alt="Features Images">
+                            Renewable <br>Resource
+                        </li>
+                        <li>
+                            <img class="img-fluid" src="public/img/products/features/food_grade.png" alt="Features Images">
+                            Food <br>Grade
+                        </li>
+                        <li>
+                            <img class="img-fluid" src="public/img/products/features/eco_friendly.png" alt="Features Images">
+                            Eco <br>Friendly
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-xxl-5 col-xl-5 col-lg-5">
+                      <div class="sec-title-wrapper">
+                        <h2 class="sec-title title-anim">What Makes Bioworld Different?</h2>
+                        <p>For Making Best Sugarcane Bagasse Tableware, We Are Using Best Sugarcane Pulp, And With The Help Of Modern Equipment And Technique We Provide You The Best Products In The World.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="award__area">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-xxl-12 text-center">
+                      <div class="sec-title-wrapper pb-5">
+                        <h2 class="sec-title title-anim">Technical Details</h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
+                      <div class="mb-5">
+                        <img class="img-fluid" src="public/img/products/tech_details.png" alt="">
+                      </div>
+                    </div>
+                    <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
+                      <div class="award__right">
+                        <div class="award__list">
+                            <div class="award__item">
+                               <p>Raw Material</p>
+                               <p>Sugarcane Bagasse </p>
+                            </div>
+                            <div class="award__item">
+                              <p>Number Of Pieces:</p>
+                              <p>25 | 50 | 100 / Per Pack</p>
+                            </div>
+                            <div class="award__item">
+                              <p>Capacity:</p>
+                              <p>Avl. in ml</p>
+                            </div>
+                            <div class="award__item">
+                              <p>Sizes:</p>
+                              <p>Avl. in Diffrent Sizes</p>
+                            </div>
+                            <div class="award__item">
+                              <p>Colors:</p>
+                              <p>Avl. in Diffrent Colors</p>
+                            </div>
+                            <div class="award__item">
+                              <p>Printing-inks:</p>
+                              <p>Non-toxic Safe Inks</p>
+                            </div>
+                            <div class="award__item">
+                              <p>Use:</p>
+                              <p>Hot & Cold, Liquid & Solid Food</p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+        </main>
+
+
+        <style>
+  .sc-1au8ryl-0.dmopMx {
+    display: none !important;
+  }
+</style>
+<!-- Footer area start -->
+<footer class="footer__area-2 pt-130">
+    <div class="container">
+      <div class="footer__top-2 text-anim">
+        <div class="row">
+          <div class="col-xxl-12">
+            <h2 class="sec-title-3 title-anim">Get In Touch</h2>
+            <p class="footer__sub-title">We would love to hear from you. Let's get in touch and discuss what plans you have in mind for us.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__middle-2">
+        <div class="row">
+          <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+            <div class="footer__location-2">
+              <div class="location">
+                <h3>Reach US</h3>
+                <p>Sr. No. 175, Behind Pipaliya Railway Quarters Navlakhi - Morbi, Road, Luntavadar, Gujarat 363641, INDIA.</p>
+              </div>
+              <div class="location">
+                <h3>Contact US</h3>
+                <p><a href="cdn-cgi/l/email-protection.html#1e777078715e7d6b6c7b7b7f6c6a766e6c717a6b7d6a6d307d7173"><i class="fa-solid fa-envelope"></i> <span class="__cf_email__" data-cfemail="82ebece4edc2e1f7f0e7e7e3f0f6eaf2f0ede6f7e1f6f1ace1edef">[email&#160;protected]</span></a></p>
+                <p><a href="tel:+919115491111"><i class="fa-solid fa-phone"></i> +91 95100 66644</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+            <div class="footer__subscribe-2">
+              <form action="#">
+                <input type="text" name="email" placeholder="Enter your email" required="">
+                <button type="submit" class="submit" value="submit"><img src="public/imgs/icon/arrow-black.png" alt="Arrow Icon"></button>
+              </form>
+              <div class="social_icon">
+
+                <ul class="footer__social">
+                  <li><a href="#"><span><i class="fa-brands fa-facebook-f"></i></span></a></li>
+                  <li><a href="#"><span><i class="fa-brands fa-twitter"></i></span></a></li>
+                  <li><a href="#"><span><i class="fa-brands fa-instagram"></i></span></a></li>
+                  <li><a href="#"><span><i class="fa-brands fa-linkedin"></i></span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__btm-2">
+        <div class="row">
+          <div class="col-xxl-4 col-xl-4 col-lg-5 col-md-6">
+            <div class="footer__copyright-2">
+              <p>
+                © 2024 | Allrights reserved by <a href="index.htm"><b>Bioworld</b></a><br>
+                Powered By <span class="text-danger">♡</span> <a href="https://www.technobytesllp.in/" target="_blank"><b>Techno Bytes IT Solutions LLP</b></a>
+              </p>
+            </div>
+          </div>
+          <div class="col-xxl-8 col-xl-8 col-lg-7 col-md-6">
+            <div class="footer__nav">
+              <ul class="footer-menu menu-anim">
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="inquiry.html">Inquiry</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer area end -->
+
+  <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+    (function () {
+        var options = {
+			whatsapp: "+919115491111", // WhatsApp number
+			email: "export@wesfoeco.com", // Email
+            call_to_action: "Need Help ?", // Call to action
+            button_color: "#81b214", // Color of button
+            position: "left", // Position may be 'right' or 'left'
+            order: "whatsapp,email", // Order of buttons
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+        <!-- All JS files -->
+<script src="public/js/jquery-3.6.0.min.js"></script>
+<script src="public/js/bootstrap.bundle.min.js"></script>
+<script src="public/js/swiper-bundle.min.js"></script>
+<script src="public/js/counter.js"></script>
+<script src="public/js/gsap.min.js"></script>
+<script src="public/js/ScrollTrigger.min.js"></script>
+<script src="public/js/ScrollToPlugin.min.js"></script>
+<script src="public/js/ScrollSmoother.min.js"></script>
+<script src="public/js/SplitText.min.js"></script>
+<script src="public/js/chroma.min.js"></script>
+<script src="public/js/jquery.meanmenu.min.js"></script>
+<script src="public/js/main.js"></script>
+<script src="public/js/lightbox.js"></script>    </div></div></body>
+</html>
